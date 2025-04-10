@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #fbffff;
+  }
+  .clinic-image {
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+  }
+  
+  
+  header {
+    background: #eadaeb;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #007bff;
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-family: "Times New Roman", Times, serif;
+  }
+  
+  section {
+    padding: 20px;
+    background: white;
+    margin: 20px;
+    border-radius: 8px;
+  }
+  
+  .doctors-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0 40px;
+    width: 100%;
+    color: #007bff;
+    box-sizing: border-box;
+  }
+  
+  .doctor-left {
+    text-align: left;
+    width: 45%;
+  }
+  
+  .doctor-right {
+    text-align: left;         /* text inside aligns in a column */
+    width: max-content;       /* fits content */
+    margin-left: auto;        /* pushes whole block to far right */
+  }
+  
